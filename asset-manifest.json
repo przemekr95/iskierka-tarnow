@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/iskierka-tarnow/static/css/main.96ee5b29.chunk.css",
+    "main.js": "/iskierka-tarnow/static/js/main.78ade9f3.chunk.js",
+    "main.js.map": "/iskierka-tarnow/static/js/main.78ade9f3.chunk.js.map",
+    "runtime-main.js": "/iskierka-tarnow/static/js/runtime-main.efaf9249.js",
+    "runtime-main.js.map": "/iskierka-tarnow/static/js/runtime-main.efaf9249.js.map",
+    "static/js/2.e594a0f9.chunk.js": "/iskierka-tarnow/static/js/2.e594a0f9.chunk.js",
+    "static/js/2.e594a0f9.chunk.js.map": "/iskierka-tarnow/static/js/2.e594a0f9.chunk.js.map",
+    "index.html": "/iskierka-tarnow/index.html",
+    "static/css/main.96ee5b29.chunk.css.map": "/iskierka-tarnow/static/css/main.96ee5b29.chunk.css.map",
+    "static/js/2.e594a0f9.chunk.js.LICENSE.txt": "/iskierka-tarnow/static/js/2.e594a0f9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efaf9249.js",
+    "static/js/2.e594a0f9.chunk.js",
+    "static/css/main.96ee5b29.chunk.css",
+    "static/js/main.78ade9f3.chunk.js"
+  ]
+}
