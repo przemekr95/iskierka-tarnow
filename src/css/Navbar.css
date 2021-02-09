@@ -15,9 +15,12 @@
 }
 
 .navbar-logo {
-  color: #fff;
-  -ms-grid-column-align: start;
-      justify-self: start;
+  background-image: url(./../images/logo.png);
+  height: 60px;
+  width: 60px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
@@ -60,12 +63,36 @@
   transition: all 0.2s ease-out;
 }
 
-.fa-bars {
+.fa-volleyball-ball {
   color: #fff;
+  -webkit-animation: rotation 8s infinite linear;
+          animation: rotation 8s infinite linear;
 }
 
 .menu-icon {
   display: none;
+}
+
+@-webkit-keyframes rotation {
+  50% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes rotation {
+  50% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -110,8 +137,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-transform: translate(25%, 50%);
-            transform: translate(25%, 50%);
+    -webkit-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
   }
   .menu-icon {
     display: block;

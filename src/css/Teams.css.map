@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../components/pages/Teams/Teams.sass"
+    ],
+    "names": [],
+    "file": "Teams.css"
+}

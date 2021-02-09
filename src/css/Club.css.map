@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,GAAG;CAAG",
+    "sources": [
+        "../components/pages/Club/Club.sass"
+    ],
+    "names": [],
+    "file": "Club.css"
+}

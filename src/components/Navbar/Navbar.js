@@ -16,24 +16,29 @@ function Navbar(){
     return (
         <>
         <nav className='navbar'>
-            <Link to='/' className='navbar-logo'>Iskierka</Link>
+            <Link to='/' className='navbar-logo'></Link>
             <div className='menu-icon' onClick={handleClick}>
-                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+                <i className={click ? 'fas fa-times' : 'fas fa-volleyball-ball'} />
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
                     <Link to='/' className="nav-links" onClick={closeMobileMenu}>
-                        Home
+                        Strona Główna
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/' className="nav-links" onClick={closeMobileMenu}>
-                        Home
+                    <Link to='/teams' className="nav-links" onClick={closeMobileMenu}>
+                        Zespół
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/' className="nav-links" onClick={closeMobileMenu}>
-                        Home
+                    <Link to='/club' className="nav-links" onClick={closeMobileMenu}>
+                        Klub
+                    </Link>
+                </li>
+                <li className='nav-item'>
+                    <Link to='/contact' className="nav-links" onClick={closeMobileMenu}>
+                        Kontakt
                     </Link>
                 </li>
             </ul>

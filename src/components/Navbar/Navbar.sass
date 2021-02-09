@@ -7,8 +7,12 @@
     font-size: 1.2rem
 
 .navbar-logo
-    color: #fff
-    justify-self: start
+    background-image: url(./../images/logo.png)
+    height: 60px
+    width: 60px
+    background-size: cover
+    background-position: center
+    border-radius: 50%
     margin-left: 20px
     cursor: pointer
     text-decoration: none
@@ -37,11 +41,19 @@
     border-radius: 4px
     transition: all 0.2s ease-out
 
-.fa-bars
+.fa-volleyball-ball
     color: #fff
+    animation: rotation 8s infinite linear
 
 .menu-icon
     display: none
+
+@keyframes rotation
+    50%
+        transform: rotate(360deg)
+
+    100%
+        transform: rotate(0deg)
 
 @media screen and (max-width: 960px)
     .nav-menu
@@ -76,7 +88,7 @@
         position: absolute
         top: 0
         left: 0
-        transform: translate(25%, 50%)
+        transform: translate(50%, 50%)
 
     .menu-icon
         display: block
