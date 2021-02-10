@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/iskierka-tarnow/static/css/main.357c319f.chunk.css",
-    "main.js": "/iskierka-tarnow/static/js/main.39c43838.chunk.js",
-    "main.js.map": "/iskierka-tarnow/static/js/main.39c43838.chunk.js.map",
+    "main.css": "/iskierka-tarnow/static/css/main.155ca909.chunk.css",
+    "main.js": "/iskierka-tarnow/static/js/main.d97e9c9b.chunk.js",
+    "main.js.map": "/iskierka-tarnow/static/js/main.d97e9c9b.chunk.js.map",
     "runtime-main.js": "/iskierka-tarnow/static/js/runtime-main.efaf9249.js",
     "runtime-main.js.map": "/iskierka-tarnow/static/js/runtime-main.efaf9249.js.map",
-    "static/js/2.c0499f4c.chunk.js": "/iskierka-tarnow/static/js/2.c0499f4c.chunk.js",
-    "static/js/2.c0499f4c.chunk.js.map": "/iskierka-tarnow/static/js/2.c0499f4c.chunk.js.map",
+    "static/js/2.f19dc60d.chunk.js": "/iskierka-tarnow/static/js/2.f19dc60d.chunk.js",
+    "static/js/2.f19dc60d.chunk.js.map": "/iskierka-tarnow/static/js/2.f19dc60d.chunk.js.map",
     "index.html": "/iskierka-tarnow/index.html",
-    "static/css/main.357c319f.chunk.css.map": "/iskierka-tarnow/static/css/main.357c319f.chunk.css.map",
-    "static/js/2.c0499f4c.chunk.js.LICENSE.txt": "/iskierka-tarnow/static/js/2.c0499f4c.chunk.js.LICENSE.txt",
-    "static/media/Home.css": "/iskierka-tarnow/static/media/PR-1-2.05107d23.jpg",
-    "static/media/Navbar.css": "/iskierka-tarnow/static/media/logo.eae860a4.png"
+    "static/css/main.155ca909.chunk.css.map": "/iskierka-tarnow/static/css/main.155ca909.chunk.css.map",
+    "static/js/2.f19dc60d.chunk.js.LICENSE.txt": "/iskierka-tarnow/static/js/2.f19dc60d.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/iskierka-tarnow/static/media/home.a59ecda5.jpg",
+    "static/media/Navbar.css": "/iskierka-tarnow/static/media/logo.7cd281cb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.efaf9249.js",
-    "static/js/2.c0499f4c.chunk.js",
-    "static/css/main.357c319f.chunk.css",
-    "static/js/main.39c43838.chunk.js"
+    "static/js/2.f19dc60d.chunk.js",
+    "static/css/main.155ca909.chunk.css",
+    "static/js/main.d97e9c9b.chunk.js"
   ]
 }
