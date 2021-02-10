@@ -10,8 +10,20 @@ function Navbar(){
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false);
 
+const navItems = [
+    {name: "Strona Główna", link:"/"},
+    {name: "Zespół", link: "/teams"},
+    {name: "Klub", link: "/club"},
+    {name: "Kontakt", link: "/contact"}
+]
 
-
+const nav = navItems.map(item => (
+    <li className='nav-item' key={item.name}>
+        <Link to={item.link} className="nav-links" onClick={closeMobileMenu}>
+        {item.name}
+        </Link>
+    </li>
+))
 
     return (
         <>
@@ -21,28 +33,8 @@ function Navbar(){
                 <i className={click ? 'fas fa-times' : 'fas fa-volleyball-ball'} />
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <li className='nav-item'>
-                    <Link to='/' className="nav-links" onClick={closeMobileMenu}>
-                        Strona Główna
-                    </Link>
-                </li>
-                <li className='nav-item'>
-                    <Link to='/teams' className="nav-links" onClick={closeMobileMenu}>
-                        Zespół
-                    </Link>
-                </li>
-                <li className='nav-item'>
-                    <Link to='/club' className="nav-links" onClick={closeMobileMenu}>
-                        Klub
-                    </Link>
-                </li>
-                <li className='nav-item'>
-                    <Link to='/contact' className="nav-links" onClick={closeMobileMenu}>
-                        Kontakt
-                    </Link>
-                </li>
-            </ul>
-            
+                {nav}
+            </ul>        
         </nav>
         </>
     );
