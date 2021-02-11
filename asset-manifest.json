@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8524b56.chunk.css",
-    "main.js": "/static/js/main.35a9363f.chunk.js",
-    "main.js.map": "/static/js/main.35a9363f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.414b15f4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.414b15f4.js.map",
-    "static/js/2.04a9a0ba.chunk.js": "/static/js/2.04a9a0ba.chunk.js",
-    "static/js/2.04a9a0ba.chunk.js.map": "/static/js/2.04a9a0ba.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.c8524b56.chunk.css.map": "/static/css/main.c8524b56.chunk.css.map",
-    "static/js/2.04a9a0ba.chunk.js.LICENSE.txt": "/static/js/2.04a9a0ba.chunk.js.LICENSE.txt",
-    "static/media/Babiec-F.966aa44c.jpg": "/static/media/Babiec-F.966aa44c.jpg",
-    "static/media/Lechowicz-A.ad57d46c.jpg": "/static/media/Lechowicz-A.ad57d46c.jpg",
-    "static/media/Home.css": "/static/media/home.a59ecda5.jpg",
-    "static/media/Navbar.css": "/static/media/logo.7cd281cb.png",
-    "static/media/template.165931f9.jpg": "/static/media/template.165931f9.jpg"
+    "main.css": "/iskierka-tarnow/static/css/main.409cfc44.chunk.css",
+    "main.js": "/iskierka-tarnow/static/js/main.0afc2455.chunk.js",
+    "main.js.map": "/iskierka-tarnow/static/js/main.0afc2455.chunk.js.map",
+    "runtime-main.js": "/iskierka-tarnow/static/js/runtime-main.efaf9249.js",
+    "runtime-main.js.map": "/iskierka-tarnow/static/js/runtime-main.efaf9249.js.map",
+    "static/js/2.04a9a0ba.chunk.js": "/iskierka-tarnow/static/js/2.04a9a0ba.chunk.js",
+    "static/js/2.04a9a0ba.chunk.js.map": "/iskierka-tarnow/static/js/2.04a9a0ba.chunk.js.map",
+    "index.html": "/iskierka-tarnow/index.html",
+    "static/css/main.409cfc44.chunk.css.map": "/iskierka-tarnow/static/css/main.409cfc44.chunk.css.map",
+    "static/js/2.04a9a0ba.chunk.js.LICENSE.txt": "/iskierka-tarnow/static/js/2.04a9a0ba.chunk.js.LICENSE.txt",
+    "static/media/Babiec-F.966aa44c.jpg": "/iskierka-tarnow/static/media/Babiec-F.966aa44c.jpg",
+    "static/media/Lechowicz-A.ad57d46c.jpg": "/iskierka-tarnow/static/media/Lechowicz-A.ad57d46c.jpg",
+    "static/media/Home.css": "/iskierka-tarnow/static/media/home.a59ecda5.jpg",
+    "static/media/Navbar.css": "/iskierka-tarnow/static/media/logo.7cd281cb.png",
+    "static/media/template.165931f9.jpg": "/iskierka-tarnow/static/media/template.165931f9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.414b15f4.js",
+    "static/js/runtime-main.efaf9249.js",
     "static/js/2.04a9a0ba.chunk.js",
-    "static/css/main.c8524b56.chunk.css",
-    "static/js/main.35a9363f.chunk.js"
+    "static/css/main.409cfc44.chunk.css",
+    "static/js/main.0afc2455.chunk.js"
   ]
 }
