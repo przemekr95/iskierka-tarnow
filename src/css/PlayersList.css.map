@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,YAAY;CAAG;;AAEpC,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,aAAa;CAAG",
+    "sources": [
+        "../components/PlayersList/PlayersList.sass"
+    ],
+    "names": [],
+    "file": "PlayersList.css"
+}
