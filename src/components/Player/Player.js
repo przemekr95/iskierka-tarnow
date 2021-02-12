@@ -5,8 +5,8 @@ const Player = (props) => {
     return(
         <div className="player">
             <img src={props.player.img} alt={props.player.surname}/>
-            <p>{props.player.name} {props.player.surname}</p>
-            <p>{props.player.position}</p>
+            <p className="player-name">{props.player.name} {props.player.surname}</p>
+            <p className="player-position">{props.player.position}</p>
         </div>
     )
 }
