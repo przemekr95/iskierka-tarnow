@@ -8,7 +8,10 @@ const PlayersList = (props) => {
             <div className="players-btns">
                 {props.btns.map(btn=>{
                     return(
-                        <button key={btn.id} value={btn.id} onClick={props.handleBtns}>{btn.name}</button>
+                        
+
+                        <button className={btn.active ? "players-btn active" : "players-btn"} key={btn.id} value={btn.id} onClick={props.handleBtns}>{btn.name}</button>
+
                     )
                 })}
             </div>

@@ -8,14 +8,15 @@ class Teams  extends Component {
     state={
         players: players,
         playersCopy: players,
-        // btns:["all", "senior", "junior", "kadet"]
-        btns:[{id:"all", name:"Wszyscy"},{id: "senior", name:"Seniorzy"}, {id:"junior", name: "Juniorzy"}, {id:"kadet", name:"Kadeci"}]
+        btns:[{id:"all", name:"Wszyscy", active: false},{id: "senior", name:"Seniorzy", active: false}, {id:"junior", name: "Juniorzy", active: false}, {id:"kadet", name:"Kadeci", active: false}]
     }
 
     handleBtns = (e) => {
         let playersCopy;
+        
         if(e.target.value==="all"){
             playersCopy=this.state.players
+            
         } 
         else{
             playersCopy=this.state.players.filter(item=>item.category===e.target.value)
