@@ -28,8 +28,6 @@
   padding: 10px;
   font-size: 18px;
   font-weight: bold;
-  background: -webkit-gradient(linear, left bottom, right top, from(#f26522), to(rgba(255, 255, 255, 0.6)));
-  background: linear-gradient(to right top, #f26522, rgba(255, 255, 255, 0.6));
   border: none;
   cursor: pointer;
   position: relative;
@@ -42,6 +40,11 @@
 
 .active {
   background-color: red;
+}
+
+.inactive {
+  background: -webkit-gradient(linear, left bottom, right top, from(#f26522), to(rgba(255, 255, 255, 0.6)));
+  background: linear-gradient(to right top, #f26522, rgba(255, 255, 255, 0.6));
 }
 
 .players-btn:after {

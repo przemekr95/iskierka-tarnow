@@ -8,8 +8,10 @@ class Teams  extends Component {
     state={
         players: players,
         playersCopy: players,
-        btns:[{id:"all", name:"Wszyscy", active: false},{id: "senior", name:"Seniorzy", active: false}, {id:"junior", name: "Juniorzy", active: false}, {id:"kadet", name:"Kadeci", active: false}]
+        btns:[{id:"all", name:"Wszyscy"},{id: "senior", name:"Seniorzy"}, {id:"junior", name: "Juniorzy"}, {id:"kadet", name:"Kadeci"}]
     }
+
+
 
     handleBtns = (e) => {
         let playersCopy;
@@ -27,7 +29,7 @@ class Teams  extends Component {
     }
 
     render(){
-        
+
         return(
             <div className="teams-wrapper">
                 <div className="players-box">
