@@ -14,8 +14,8 @@ const PlayersList = (props) => {
 
 
 
+
     function toggleActive(index){
-        
         changeState({
             ...appState, activeObject: appState.btns[index]
         })
@@ -32,6 +32,7 @@ const PlayersList = (props) => {
 
 
     return(
+        
         <>
             <div className="players-btns">
                 {props.btns.map(btn=>{
@@ -43,8 +44,9 @@ const PlayersList = (props) => {
 
                 {
                     appState.btns.map((elements, index)=>(
+                       
                         <button className={toggleActiveStyles(index)} key={elements.id} value={elements.id} onClick={()=>{toggleActive(index)}}>{elements.name}</button>
-                    ))}
+        ))}
 
 
 

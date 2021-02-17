@@ -18,7 +18,7 @@ class Teams  extends Component {
         
         if(e.target.value==="all"){
             playersCopy=this.state.players
-            
+            console.log(e)
         } 
         else{
             playersCopy=this.state.players.filter(item=>item.category===e.target.value)
