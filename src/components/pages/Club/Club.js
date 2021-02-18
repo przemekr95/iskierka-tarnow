@@ -1,6 +1,7 @@
 import React from 'react';
 import './../../../css/Club.css'
 import template from './../../../images/template-club.png'
+import { Link } from 'react-router-dom';
 
 const managements = [ {id: 1, name: "Andrzej", surname: "Łoś", position: "Prezes Klubu", img: template}, {id: 2, name: "Sebastian", surname: "Mruk", position: "Wiceprezes Klubu", img: template}, {id: 3, name: "Dariusz", surname: "Kuta", position: "Sekretarz Klubu", img: template}, {id: 4, name: "Bożena", surname: "Janiec", position: "Pełnomocnik Zarządu", img: template}]
 
@@ -49,6 +50,12 @@ const practice = [
     }         
 ]
 
+const download = [{name:"Statut", link:"logo192.png"}, {name:"Regulamin", link:"logo192.png"}, {name:"Regulamin składek członkowskich", link:"logo192.png"}, {name:"Deklaracja członkowska", link:"logo192.png"}, {name:"Logo", link:"logo192.png"}]
+
+const downloadList = download.map(item=>(
+    <Link className="download-item" key={item.name} to={item.link} target="_blank" download><i className="fas fa-file-download"></i> {item.name} </Link>
+))
+
 const managementsList = managements.map(item=>(
     <div className="management-item" key={item.id}>
         <img src={template} className="management-photo" alt={item.surname}></img>
@@ -59,16 +66,6 @@ const managementsList = managements.map(item=>(
         </div>
     </div>
 ))
-
-
-function showPractice(index){
-    const element = document.getElementById(index)
-    if(element.className === "practice-box practice-active"){
-        element.classList.remove("practice-active");
-    } else{
-        element.classList.add("practice-active");
-    }
-}
 
 const practiceList = practice.map((item, index)=>(
     <div className="practice-group" key={index}>
@@ -84,6 +81,16 @@ const practiceList = practice.map((item, index)=>(
     </div>
 </div>
 ))
+
+function showPractice(index){
+    const element = document.getElementById(index)
+    if(element.className === "practice-box practice-active"){
+        element.classList.remove("practice-active");
+    } else{
+        element.classList.add("practice-active");
+    }
+}
+
 
 const Club = () => {
     return(
@@ -118,6 +125,12 @@ const Club = () => {
                         {practiceList}
                     </div>
                     <p className="practice-info">W każdym roku startowym ubezpieczycielem wszystkich zawodników Międzyszkolnego Klubu Sportowego Iskierka Tarnów jest InterRisk. Umowa Ubezpieczeniowa zawierana jest co roku w dniu 27 czerwca.</p>
+                </div>
+                <div className="download-wrapper">
+                    <h3 className="club-title"><span>Do</span> pobrania</h3>
+                    <div className="club-download">
+                        {downloadList}
+                    </div>
                 </div>
             </div>
         </>
