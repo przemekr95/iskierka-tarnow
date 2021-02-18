@@ -147,7 +147,6 @@
 }
 
 .management-des h3 span {
-  font-weight: bold;
   color: #f26522;
   font-size: 25px;
 }
@@ -159,6 +158,73 @@
   border: 1px solid black;
   height: 200px;
   width: 133px;
+}
+
+.practice-wrapper {
+  max-width: 1024px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.club-practice {
+  max-width: 1024px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.practice-box {
+  display: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.practice-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.practice-group h3 {
+  color: #f26522;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.practice-group h3 i {
+  color: black;
+}
+
+.practice-day {
+  width: 200px;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.practice-day i {
+  color: #f26522;
+}
+
+.practice-info {
+  text-align: center;
 }
 
 @media screen and (max-width: 960px) {
