@@ -84,7 +84,7 @@ const practiceList = practice.map((item, index)=>(
 
 function showPractice(index){
     const element = document.getElementById(index)
-    if(element.className === "practice-box practice-active"){
+    if(element.className.includes("practice-active")){
         element.classList.remove("practice-active");
     } else{
         element.classList.add("practice-active");

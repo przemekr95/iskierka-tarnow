@@ -15,10 +15,8 @@ class Teams  extends Component {
 
     handleBtns = (e) => {
         let playersCopy;
-        
         if(e.target.value==="all"){
             playersCopy=this.state.players
-            console.log(e)
         } 
         else{
             playersCopy=this.state.players.filter(item=>item.category===e.target.value)
@@ -29,7 +27,6 @@ class Teams  extends Component {
     }
 
     render(){
-
         return(
             <div className="teams-wrapper">
                 <div className="players-box">

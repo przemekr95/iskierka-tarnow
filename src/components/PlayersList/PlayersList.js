@@ -10,12 +10,8 @@ const PlayersList = (props) => {
 
     })
 
-
-
-
-
-
-    function toggleActive(index){
+    function toggleActive(clickEvent, index){
+        props.handleBtns(clickEvent);
         changeState({
             ...appState, activeObject: appState.btns[index]
         })
@@ -30,33 +26,13 @@ const PlayersList = (props) => {
         }
     }
 
-
-    return(
-        
+    return(   
         <>
             <div className="players-btns">
-                {props.btns.map(btn=>{
-                    return(
-                        <button className={btn.active ? "players-btn inactive" : "players-btn"} key={btn.id} value={btn.id} onClick={props.handleBtns}>{btn.name}</button>
-                    )
-                })}
-
-
-                {
-                    appState.btns.map((elements, index)=>(
-                       
-                        <button className={toggleActiveStyles(index)} key={elements.id} value={elements.id} onClick={()=>{toggleActive(index)}}>{elements.name}</button>
-        ))}
-
-
-
+                {appState.btns.map((elements, index)=>(          
+                    <button className={toggleActiveStyles(index)} key={elements.id} value={elements.id} onClick={(clickEvent)=>{toggleActive(clickEvent, index)}}>{elements.name}</button>
+                ))}
             </div>
-
-
-
-
-
-
             <div className="players">
                 {props.players.map(player=>{
                     return <Player key={player.id} player={player} />
