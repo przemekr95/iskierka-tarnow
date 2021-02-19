@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PlayersList from '../../PlayersList/PlayersList';
 import './../../../css/Teams.css';
 import { players } from './players';
+import trener from './../../../images/trener.jpg'
 
 class Teams  extends Component {
     
@@ -29,8 +30,14 @@ class Teams  extends Component {
     render(){
         return(
             <div className="teams-wrapper">
+                <h3 className="club-title"><span>Nasz</span> trener</h3>
+                <div className="player">
+                    <img src={trener} alt="Andrzej Łoś"/>
+                    <p className="player-name">Andrzej Łoś</p>
+                    <p className="player-position">Trener</p>
+                </div>
                 <div className="players-box">
-                    <h2>Zawodnicy</h2>
+                    <h3 className="club-title"><span>Nasi</span> zawodnicy</h3>
                     <PlayersList players={this.state.playersCopy} handleBtns={this.handleBtns} btns={this.state.btns}/>
                 </div>
             </div>
