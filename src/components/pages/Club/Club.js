@@ -1,9 +1,10 @@
 import React from 'react';
-import './../../../css/Club.css'
-import template from './../../../images/template-club.png'
+import './../../../css/Club.css';
+import template from './../../../images/template-club.png';
+import aLos from './../../../images/trener.jpg';
 import { Link } from 'react-router-dom';
 
-const managements = [ {id: 1, name: "Andrzej", surname: "Łoś", position: "Prezes Klubu", img: template}, {id: 2, name: "Sebastian", surname: "Mruk", position: "Wiceprezes Klubu", img: template}, {id: 3, name: "Dariusz", surname: "Kuta", position: "Sekretarz Klubu", img: template}, {id: 4, name: "Bożena", surname: "Janiec", position: "Pełnomocnik Zarządu", img: template}]
+const managements = [ {id: 1, name: "Andrzej", surname: "Łoś", position: "Prezes Klubu", img: aLos}, {id: 2, name: "Sebastian", surname: "Mruk", position: "Wiceprezes Klubu", img: template}, {id: 3, name: "Dariusz", surname: "Kuta", position: "Sekretarz Klubu", img: template}, {id: 4, name: "Bożena", surname: "Janiec", position: "Pełnomocnik Zarządu", img: template}]
 
 const practice = [
     {
@@ -58,7 +59,7 @@ const downloadList = download.map(item=>(
 
 const managementsList = managements.map(item=>(
     <div className="management-item" key={item.id}>
-        <img src={template} className="management-photo" alt={item.surname}></img>
+        <img src={item.img} className="management-photo" alt={item.surname}></img>
         <div className="management-des">
             <h3>{item.name}</h3>
             <h3><span>{item.surname}</span></h3>
