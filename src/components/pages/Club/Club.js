@@ -51,10 +51,10 @@ const practice = [
     }         
 ]
 
-const download = [{name:"Statut", link:"logo192.png"}, {name:"Regulamin", link:"logo192.png"}, {name:"Regulamin składek członkowskich", link:"logo192.png"}, {name:"Deklaracja członkowska", link:"logo192.png"}, {name:"Logo", link:"logo192.png"}]
+const download = [{name:"Statut", link:"/download/logo.png"}, {name:"Regulamin", link:"/download/logo.png"}, {name:"Regulamin składek członkowskich", link:"/download/logo.png"}, {name:"Deklaracja członkowska", link:"/download/logo.png"}, {name:"Logo", link:"/download/logo.png"}]
 
 const downloadList = download.map(item=>(
-    <Link className="download-item" key={item.name} to={item.link} target="_blank" download><i className="fas fa-file-download"></i> {item.name} </Link>
+    <Link className="button" key={item.name} to={item.link} target="_blank" download><i className="fas fa-file-download"></i> {item.name} </Link>
 ))
 
 const managementsList = managements.map(item=>(

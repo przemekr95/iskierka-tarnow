@@ -20,9 +20,11 @@ const PlayersList = (props) => {
     function toggleActiveStyles(index){
         
         if(appState.btns[index] === appState.activeObject){
-            return "players-btn active";
+            return "button active-btn";
+            // return "players-btn active-btn";
         } else {
-            return "players-btn inactive";
+            return "button inactive-btn";
+            // return "players-btn inactive-btn";
         }
     }
 

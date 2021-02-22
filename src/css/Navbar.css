@@ -1,6 +1,6 @@
 .navbar {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.99);
   height: 80px;
   width: 100%;
   display: -webkit-box;
@@ -37,6 +37,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin-right: 20px;
 }
 
 .nav-item {
@@ -47,6 +48,7 @@
       -ms-flex-align: center;
           align-items: center;
   height: 80px;
+  position: relative;
 }
 
 .nav-links {
@@ -55,11 +57,22 @@
   padding: 0.5rem 1rem;
 }
 
-.nav-links:hover {
-  background-color: #1888ff;
-  border-radius: 4px;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+.nav-links:after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  background: #f26522;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(#f26522));
+  background: linear-gradient(90deg, transparent, #f26522);
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+.nav-links:hover:after {
+  width: 100%;
 }
 
 .fa-volleyball-ball {
@@ -109,13 +122,13 @@
     width: 100%;
     position: absolute;
     top: 64px;
-    left: -100vh;
+    left: -500vw;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
   .nav-menu.active {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     left: 0;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
@@ -127,10 +140,6 @@
     text-align: center;
     padding: 2rem 0;
     width: 100%;
-  }
-  .nav-links:hover {
-    background-color: #1888ff;
-    border-radius: 0;
   }
   .navbar-logo {
     display: block;

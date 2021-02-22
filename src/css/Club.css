@@ -241,22 +241,6 @@
   margin-bottom: 50px;
 }
 
-.download-item {
-  background-color: #f26522;
-  color: black;
-  width: 300px;
-  padding: 15px 10px;
-  margin: 10px 0;
-  text-align: center;
-  text-decoration: none;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
-}
-
-.download-item:hover {
-  background-color: #ff5f14;
-}
-
 @media screen and (max-width: 960px) {
   .club-wrapper p {
     line-height: 25px;

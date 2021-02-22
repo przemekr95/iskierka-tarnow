@@ -21,56 +21,18 @@
           justify-content: center;
 }
 
-.players-btn {
-  color: #fff;
-  width: 120px;
-  margin: 32px 10px;
-  padding: 10px;
-  font-size: 18px;
+.active-btn {
+  background-color: #ff5f14;
   font-weight: bold;
+  width: 120px;
   border: none;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
-.players-btn:focus {
-  outline-color: #f26522;
-}
-
-.active {
-  background-color: red;
-}
-
-.inactive {
-  background: -webkit-gradient(linear, left bottom, right top, from(#f26522), to(rgba(255, 255, 255, 0.6)));
-  background: linear-gradient(to right top, #f26522, rgba(255, 255, 255, 0.6));
-}
-
-.players-btn:after {
-  width: 10px;
-  height: 150%;
-  position: absolute;
-  top: -10px;
-  left: -20px;
-  content: "";
-  background-color: rgba(255, 255, 255, 0.6);
-  -webkit-transform: rotate(20deg);
-          transform: rotate(20deg);
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
-}
-
-.players-btn:hover:after {
-  -webkit-transform: translateX(150px) rotate(20deg);
-          transform: translateX(150px) rotate(20deg);
-}
-
-@media screen and (max-width: 600px) {
-  .players-btn {
-    margin: 15px 10px;
-  }
+.inactive-btn {
+  font-weight: bold;
+  width: 120px;
+  border: none;
 }
 /*# sourceMappingURL=PlayersList.css.map */

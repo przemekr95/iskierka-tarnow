@@ -11,7 +11,7 @@ function Navbar(){
     const closeMobileMenu = () => setClick(false);
 
 const navItems = [
-    {name: "Strona Główna", link:"/"},
+    {name: "Strona Główna", link: "/"},
     {name: "Zespół", link: "/teams"},
     {name: "Klub", link: "/club"},
     {name: "Kontakt", link: "/contact"}

@@ -5,3 +5,22 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: #fff;
 }
+
+.button {
+  background-color: #f26522;
+  color: black;
+  width: 300px;
+  padding: 15px 10px;
+  margin: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.button:hover {
+  background-color: rgba(255, 95, 20, 1)
+}
+
+.button:focus {
+  outline-color: #f26522
+}
