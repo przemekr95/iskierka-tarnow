@@ -108,6 +108,10 @@
   color: black;
 }
 
+.practice__group p {
+  color: black;
+}
+
 .practice__day {
   width: 220px;
   margin: 10px;
