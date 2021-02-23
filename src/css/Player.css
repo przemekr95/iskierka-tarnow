@@ -19,7 +19,7 @@
   background-position: top;
 }
 
-.player-name {
+.player__name {
   position: absolute;
   width: 100%;
   height: 30px;
@@ -31,7 +31,7 @@
   font-weight: bold;
 }
 
-.player-position {
+.player__position {
   position: absolute;
   width: 100%;
   height: 30px;

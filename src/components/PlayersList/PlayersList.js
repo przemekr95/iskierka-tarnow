@@ -20,17 +20,15 @@ const PlayersList = (props) => {
     function toggleActiveStyles(index){
         
         if(appState.btns[index] === appState.activeObject){
-            return "button active-btn";
-            // return "players-btn active-btn";
+            return "button active__category__btn";
         } else {
-            return "button inactive-btn";
-            // return "players-btn inactive-btn";
+            return "button inactive__category__btn";
         }
     }
 
     return(   
         <>
-            <div className="players-btns">
+            <div className="players__btns">
                 {appState.btns.map((elements, index)=>(          
                     <button className={toggleActiveStyles(index)} key={elements.id} value={elements.id} onClick={(clickEvent)=>{toggleActive(clickEvent, index)}}>{elements.name}</button>
                 ))}

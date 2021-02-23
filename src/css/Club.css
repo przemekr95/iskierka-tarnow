@@ -1,72 +1,11 @@
-.club-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
-  height: 100%;
-  padding-top: 100px;
-  background-size: cover;
-  background-position: center;
-}
-
-.club-wrapper p {
+.history__text p {
   margin: 10px;
   color: black;
   line-height: 30px;
   font-size: 16px;
 }
 
-.history-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin: 30px 0;
-}
-
-.club-history {
-  max-width: 1024px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.club-title {
-  color: black;
-  font-size: 40px;
-  margin: 30px;
-  text-align: center;
-}
-
-.club-title span, .text span {
-  color: #f26522;
-  font-weight: bold;
-}
-
-.history-wrapper .photo {
+.history__photo {
   width: 40%;
   background-image: url(./../images/club-photo.jpg);
   background-size: cover;
@@ -74,35 +13,16 @@
   margin: 0 5%;
 }
 
-.history-wrapper .text {
+.history__text {
   width: 60%;
 }
 
-.club-management {
-  max-width: 1024px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+.history__text span {
+  color: #f26522;
+  font-weight: bold;
 }
 
-.management-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.management-item:nth-child(even) {
+.management__item:nth-child(even) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,20 +32,20 @@
           flex-direction: row-reverse;
 }
 
-.management-item {
-  margin: 10px 5px;
-  padding: 20px;
-  max-width: 1000px;
+.management__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 10px;
+  padding: 20px;
+  max-width: 1000px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.management-des {
+.management__des {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,16 +62,16 @@
   color: black;
 }
 
-.management-des h3 {
+.management__des h3 {
   margin: 10px;
 }
 
-.management-des h3 span {
+.management__des h3 span {
   color: #f26522;
   font-size: 25px;
 }
 
-.management-photo {
+.management__photo {
   border-radius: 2px;
   -webkit-box-shadow: 0 0 3px black;
           box-shadow: 0 0 3px black;
@@ -160,32 +80,7 @@
   width: 133px;
 }
 
-.practice-wrapper {
-  max-width: 1024px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.club-practice {
-  max-width: 1024px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-bottom: 20px;
-}
-
-.practice-box {
+.practice__box {
   display: none;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -194,13 +89,13 @@
           justify-content: space-evenly;
 }
 
-.practice-active {
+.practice__box__active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.practice-group h3 {
+.practice__group h3 {
   color: #f26522;
   font-size: 30px;
   text-align: center;
@@ -209,25 +104,25 @@
   cursor: pointer;
 }
 
-.practice-group h3 i {
+.practice__group h3 i {
   color: black;
 }
 
-.practice-day {
+.practice__day {
   width: 220px;
   margin: 10px;
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.practice-day i {
+.practice__day i {
   color: #f26522;
 }
 
-.practice-info {
+.practice__info {
   text-align: center;
 }
 
-.club-download {
+.download {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,31 +136,36 @@
   margin-bottom: 50px;
 }
 
+.download__item {
+  margin: 10px;
+}
+
 @media screen and (max-width: 960px) {
-  .club-wrapper p {
+  .history__text p {
     line-height: 25px;
     font-size: 14px;
   }
-  .history-wrapper {
+  .history__wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .history-wrapper .photo {
+  .history__photo {
     width: 90%;
     height: 300px;
     background-position: top;
   }
-  .history-wrapper .text {
-    width: 100%;
+  .history__text {
+    text-align: center;
+    width: 90%;
   }
-  .club-history h3 {
-    margin: 10px 0;
-  }
-  .download-item {
+  .download__item {
     width: 250px;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=Club.css.map */

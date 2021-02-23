@@ -1,4 +1,4 @@
-.players-btns {
+.players__btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,18 +21,20 @@
           justify-content: center;
 }
 
-.active-btn {
+.active__category__btn {
   background-color: #ff5f14;
   font-weight: bold;
   width: 120px;
   border: none;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  margin: 10px;
 }
 
-.inactive-btn {
+.inactive__category__btn {
   font-weight: bold;
   width: 120px;
   border: none;
+  margin: 10px;
 }
 /*# sourceMappingURL=PlayersList.css.map */

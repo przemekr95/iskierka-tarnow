@@ -4,10 +4,10 @@ import './../../../css/Contact.css'
 const Contact = () => {
     return(
         <>
-            <div className="contact-wrapper">
-                <h3 className="club-title"><span>Kontact</span></h3>
-                <div className="contact-box">
-                    <div className="contact-info">
+            <div className="wrapper padding__top">
+                <h3 className="section__title"><span>Kontact</span></h3>
+                <div className="section__wrapper">
+                    <div className="contact__info">
                         <h4><span>MUKS</span> Iskierka Tarnów</h4>
                         <p><i className="fas fa-map-marker-alt"></i> ul. Krzyska 118, 33-103 Tarnów</p>
                         <p><span>NIP:</span> 873-26-11-598</p>
@@ -16,7 +16,7 @@ const Contact = () => {
                         <p><i className="fas fa-phone-square"></i> 605 721 423</p>
                         <p><i className="fas fa-envelope"></i> andlos@tlen.pl</p>
                     </div>
-                    <div className="contact-photo"></div>
+                    <div className="contact__photo"></div>
                 </div>
             </div>
     </>

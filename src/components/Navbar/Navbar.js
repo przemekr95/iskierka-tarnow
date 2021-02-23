@@ -33,6 +33,7 @@ const nav = navItems.map(item => (
                 <i className={click ? 'fas fa-times' : 'fas fa-volleyball-ball'} />
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                <a className="facebook__link" href="https://www.facebook.com/MUKSIskierkaTarnow">Aktualności</a>
                 {nav}
             </ul>        
         </nav>

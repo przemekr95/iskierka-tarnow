@@ -6,20 +6,19 @@ const textAbout = 'Międzyszkolny Uczniowski Klub Sportowy Iskierka Tarnów to b
 const Home = () => {
     return(
         <>
-            <div className="home-wrapper">
-                <div className="shadow"></div>
+            <div className="wrapper home__wrapper">
+                <div className="home__shadow"></div>
                 <h1>Iskierka Tarnów</h1>
                 <h2>#JednaDrużynaJedenCel</h2>
                 <i className="arrow fas fa-chevron-down"></i>
             </div>
-            <div className="home-info">
-                <div className="text">
+            <div className="home__info">
+                <div className="home__text">
                     <h3>Iskierka</h3>
                     <h2>Tarnów</h2>
                     <p>{textAbout}</p>
                 </div>
-                <div className="photo"></div>
-
+                <div className="home__photo"></div>
             </div>
         </>
     )

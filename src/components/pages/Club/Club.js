@@ -54,13 +54,13 @@ const practice = [
 const download = [{name:"Statut", link:"/download/logo.png"}, {name:"Regulamin", link:"/download/logo.png"}, {name:"Regulamin składek członkowskich", link:"/download/logo.png"}, {name:"Deklaracja członkowska", link:"/download/logo.png"}, {name:"Logo", link:"/download/logo.png"}]
 
 const downloadList = download.map(item=>(
-    <Link className="button" key={item.name} to={item.link} target="_blank" download><i className="fas fa-file-download"></i> {item.name} </Link>
+    <Link className="button download__item" key={item.name} to={item.link} target="_blank" download><i className="fas fa-file-download"></i> {item.name} </Link>
 ))
 
 const managementsList = managements.map(item=>(
-    <div className="management-item" key={item.id}>
-        <img src={item.img} className="management-photo" alt={item.surname}></img>
-        <div className="management-des">
+    <div className="management__item" key={item.id}>
+        <img src={item.img} className="management__photo" alt={item.surname}></img>
+        <div className="management__des">
             <h3>{item.name}</h3>
             <h3><span>{item.surname}</span></h3>
             <p>{item.position}</p>
@@ -69,26 +69,26 @@ const managementsList = managements.map(item=>(
 ))
 
 const practiceList = practice.map((item, index)=>(
-    <div className="practice-group" key={index}>
-    <h3 onClick={()=>{showPractice(index)}}><i className="fas fa-sort-down"></i> {item.category} <i className="fas fa-sort-down"></i></h3>
-    <div className="practice-box" id={index}>
-        {item.info.map((item, index)=>(
-            <div className="practice-day" key={index}>
-                <p><i className="fas fa-calendar-day"></i> {item.day}</p>
-                <p><i className="far fa-clock"></i> {item.time}</p>
-                <p><i className="fas fa-map-marker-alt"></i> {item.location}</p>
-            </div>
-        ))}
+    <div className="practice__group" key={index}>
+        <h3 onClick={()=>{showPractice(index)}}><i className="fas fa-sort-down"></i> {item.category} <i className="fas fa-sort-down"></i></h3>
+        <div className="practice__box" id={index}>
+            {item.info.map((item, index)=>(
+                <div className="practice__day" key={index}>
+                    <p><i className="fas fa-calendar-day"></i> {item.day}</p>
+                    <p><i className="far fa-clock"></i> {item.time}</p>
+                    <p><i className="fas fa-map-marker-alt"></i> {item.location}</p>
+                </div>
+            ))}
+        </div>
     </div>
-</div>
 ))
 
 function showPractice(index){
     const element = document.getElementById(index)
-    if(element.className.includes("practice-active")){
-        element.classList.remove("practice-active");
+    if(element.className.includes("practice__box__active")){
+        element.classList.remove("practice__box__active");
     } else{
-        element.classList.add("practice-active");
+        element.classList.add("practice__box__active");
     }
 }
 
@@ -96,12 +96,12 @@ function showPractice(index){
 const Club = () => {
     return(
         <>
-            <div className="club-wrapper">
-                <div className="club-history">
-                    <h3 className="club-title"><span>Nasza</span> historia</h3>
-                    <div className="history-wrapper">
-                        <div className="photo"></div>
-                        <div className="text">
+            <div className="wrapper padding__top">
+                <div className="section__wrapper">
+                    <h3 className="section__title"><span>Nasza</span> historia</h3>
+                    <div className="row__box history__wrapper">
+                        <div className="history__photo"></div>
+                        <div className="history__text">
                             <p><span>Międzyszkolny Uczniowski Klub Sportowy Iskierka Tarnów</span>, został założony 22 czerwca 1994 roku przez grupę miłośników aktywnego spędzania czasu wolnego – nauczycieli Szkoły Podstawowej nr 14 w Tarnowie.
                             <br/>
                             Klub wpisany jest do ewidencji stowarzyszeń sportowych m. Tarnowa pod numerem WSP.4221.2.1.2015 Pierwszym miejscem jego działalności  była Szkoła Podstawowa nr 14 przy ul. Krzyskiej 118 w Tarnowie, gdzie prowadzona była sekcja szermierki.
@@ -114,22 +114,22 @@ const Club = () => {
                         </div>
                     </div>
                 </div>
-                <div className="club-management">
-                    <h3 className="club-title"><span>Nasz</span> Zarząd</h3>
-                    <div className="management-box">
+                <div className="section__wrapper">
+                    <h3 className="section__title"><span>Nasz</span> Zarząd</h3>
+                    <div className="column__box">
                         {managementsList}
                     </div>
                 </div>
-                <div className="club-practice">
-                    <h3 className="club-title"><span>Nasze</span> treningi</h3>
-                    <div className="practice-wrapper">
+                <div className="section__wrapper">
+                    <h3 className="section__title"><span>Nasze</span> treningi</h3>
+                    <div>
                         {practiceList}
                     </div>
-                    <p className="practice-info">W każdym roku startowym ubezpieczycielem wszystkich zawodników Międzyszkolnego Klubu Sportowego Iskierka Tarnów jest InterRisk. Umowa Ubezpieczeniowa zawierana jest co roku w dniu 27 czerwca.</p>
+                    <p className="practice__info">W każdym roku startowym ubezpieczycielem wszystkich zawodników Międzyszkolnego Klubu Sportowego Iskierka Tarnów jest InterRisk. Umowa Ubezpieczeniowa zawierana jest co roku w dniu 27 czerwca.</p>
                 </div>
-                <div className="download-wrapper">
-                    <h3 className="club-title"><span>Do</span> pobrania</h3>
-                    <div className="club-download">
+                <div className="section__wrapper">
+                    <h3 className="section__title"><span>Do</span> pobrania</h3>
+                    <div className="download">
                         {downloadList}
                     </div>
                 </div>

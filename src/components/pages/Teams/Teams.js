@@ -29,15 +29,15 @@ class Teams  extends Component {
 
     render(){
         return(
-            <div className="teams-wrapper">
-                <h3 className="club-title"><span>Nasz</span> trener</h3>
+            <div className="wrapper padding__top">
+                <h3 className="section__title"><span>Nasz</span> trener</h3>
                 <div className="player">
                     <img src={trener} alt="Andrzej Łoś"/>
                     <p className="player-name">Andrzej Łoś</p>
                     <p className="player-position">Trener</p>
                 </div>
-                <div className="players-box">
-                    <h3 className="club-title"><span>Nasi</span> zawodnicy</h3>
+                <div className="section__wrapper">
+                    <h3 className="section__title"><span>Nasi</span> zawodnicy</h3>
                     <PlayersList players={this.state.playersCopy} handleBtns={this.handleBtns} btns={this.state.btns}/>
                 </div>
             </div>
