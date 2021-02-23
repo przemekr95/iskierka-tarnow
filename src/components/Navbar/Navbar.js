@@ -18,8 +18,8 @@ const navItems = [
 ]
 
 const nav = navItems.map(item => (
-    <li className='nav-item' key={item.name}>
-        <Link to={item.link} className="nav-links" onClick={closeMobileMenu}>
+    <li className='nav__item' key={item.name}>
+        <Link to={item.link} className="nav__links" onClick={closeMobileMenu}>
         {item.name}
         </Link>
     </li>
@@ -28,11 +28,11 @@ const nav = navItems.map(item => (
     return (
         <>
         <nav className='navbar'>
-            <Link to='/' className='navbar-logo'></Link>
-            <div className='menu-icon' onClick={handleClick}>
+            <Link to='/' className='navbar__logo'></Link>
+            <div className='menu__icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-volleyball-ball'} />
             </div>
-            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <ul className={click ? 'nav__menu active' : 'nav__menu'}>
                 <a className="facebook__link" href="https://www.facebook.com/MUKSIskierkaTarnow">Aktualności</a>
                 {nav}
             </ul>        

@@ -25,6 +25,7 @@ class Teams  extends Component {
         this.setState({
             playersCopy: playersCopy
         })
+        console.log(playersCopy)
     }
 
     render(){
