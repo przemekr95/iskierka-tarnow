@@ -5,7 +5,7 @@ const Contact = () => {
     return(
         <>
             <div className="wrapper padding__top">
-                <h3 className="section__title"><span>Kontact</span></h3>
+                <h3 className="section__title"><span>Kontakt</span></h3>
                 <div className="section__wrapper">
                     <div className="contact__info">
                         <h4><span>MUKS</span> Iskierka Tarnów</h4>

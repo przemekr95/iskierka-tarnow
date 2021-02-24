@@ -53,6 +53,10 @@
   padding: 0.5rem 1rem;
 }
 
+.facebook__link i {
+  padding-right: 5px;
+}
+
 .nav__item {
   display: -webkit-box;
   display: -ms-flexbox;
