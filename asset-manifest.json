@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/iskierka-tarnow/static/css/main.047c4d39.chunk.css",
-    "main.js": "/iskierka-tarnow/static/js/main.8fb174b1.chunk.js",
-    "main.js.map": "/iskierka-tarnow/static/js/main.8fb174b1.chunk.js.map",
+    "main.js": "/iskierka-tarnow/static/js/main.d5b18ef5.chunk.js",
+    "main.js.map": "/iskierka-tarnow/static/js/main.d5b18ef5.chunk.js.map",
     "runtime-main.js": "/iskierka-tarnow/static/js/runtime-main.efaf9249.js",
     "runtime-main.js.map": "/iskierka-tarnow/static/js/runtime-main.efaf9249.js.map",
     "static/js/2.693048e4.chunk.js": "/iskierka-tarnow/static/js/2.693048e4.chunk.js",
@@ -14,12 +14,17 @@
     "static/media/Czarnecki-K.f966930d.jpg": "/iskierka-tarnow/static/media/Czarnecki-K.f966930d.jpg",
     "static/media/Gromniak-D.9b434a49.jpg": "/iskierka-tarnow/static/media/Gromniak-D.9b434a49.jpg",
     "static/media/Janik-M.d8b8da1f.jpg": "/iskierka-tarnow/static/media/Janik-M.d8b8da1f.jpg",
+    "static/media/Kabat-D.5e5411f4.jpg": "/iskierka-tarnow/static/media/Kabat-D.5e5411f4.jpg",
+    "static/media/Krawiec-B.9db9f337.jpg": "/iskierka-tarnow/static/media/Krawiec-B.9db9f337.jpg",
+    "static/media/Kuta-D.84ad2e70.jpg": "/iskierka-tarnow/static/media/Kuta-D.84ad2e70.jpg",
     "static/media/Lechowicz-A.caac7262.jpg": "/iskierka-tarnow/static/media/Lechowicz-A.caac7262.jpg",
-    "static/media/Mazur-O.dc47f745.jpg": "/iskierka-tarnow/static/media/Mazur-O.dc47f745.jpg",
+    "static/media/Mazur-O.aa55c8ba.jpg": "/iskierka-tarnow/static/media/Mazur-O.aa55c8ba.jpg",
     "static/media/Nowak-M.bc268fd2.jpg": "/iskierka-tarnow/static/media/Nowak-M.bc268fd2.jpg",
+    "static/media/Pawlowicz-K.0c04ed90.jpg": "/iskierka-tarnow/static/media/Pawlowicz-K.0c04ed90.jpg",
     "static/media/Rubacha-W.0728ba5b.jpg": "/iskierka-tarnow/static/media/Rubacha-W.0728ba5b.jpg",
     "static/media/Sukiennik-J.19f80e51.jpg": "/iskierka-tarnow/static/media/Sukiennik-J.19f80e51.jpg",
     "static/media/Tyrka-M.95e14123.jpg": "/iskierka-tarnow/static/media/Tyrka-M.95e14123.jpg",
+    "static/media/Wójcik-M.db4e7467.jpg": "/iskierka-tarnow/static/media/Wójcik-M.db4e7467.jpg",
     "static/media/Zacharek-N.d4636245.jpg": "/iskierka-tarnow/static/media/Zacharek-N.d4636245.jpg",
     "static/media/Zygula-P.e95e5159.jpg": "/iskierka-tarnow/static/media/Zygula-P.e95e5159.jpg",
     "static/media/Club.css": "/iskierka-tarnow/static/media/club-photo.1e1abd9b.jpg",
@@ -33,6 +38,6 @@
     "static/js/runtime-main.efaf9249.js",
     "static/js/2.693048e4.chunk.js",
     "static/css/main.047c4d39.chunk.css",
-    "static/js/main.8fb174b1.chunk.js"
+    "static/js/main.d5b18ef5.chunk.js"
   ]
 }
