@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/iskierka-tarnow/static/css/main.047c4d39.chunk.css",
-    "main.js": "/iskierka-tarnow/static/js/main.d5b18ef5.chunk.js",
-    "main.js.map": "/iskierka-tarnow/static/js/main.d5b18ef5.chunk.js.map",
+    "main.css": "/iskierka-tarnow/static/css/main.4157f45e.chunk.css",
+    "main.js": "/iskierka-tarnow/static/js/main.15347179.chunk.js",
+    "main.js.map": "/iskierka-tarnow/static/js/main.15347179.chunk.js.map",
     "runtime-main.js": "/iskierka-tarnow/static/js/runtime-main.efaf9249.js",
     "runtime-main.js.map": "/iskierka-tarnow/static/js/runtime-main.efaf9249.js.map",
     "static/js/2.693048e4.chunk.js": "/iskierka-tarnow/static/js/2.693048e4.chunk.js",
     "static/js/2.693048e4.chunk.js.map": "/iskierka-tarnow/static/js/2.693048e4.chunk.js.map",
     "index.html": "/iskierka-tarnow/index.html",
-    "static/css/main.047c4d39.chunk.css.map": "/iskierka-tarnow/static/css/main.047c4d39.chunk.css.map",
+    "static/css/main.4157f45e.chunk.css.map": "/iskierka-tarnow/static/css/main.4157f45e.chunk.css.map",
     "static/js/2.693048e4.chunk.js.LICENSE.txt": "/iskierka-tarnow/static/js/2.693048e4.chunk.js.LICENSE.txt",
     "static/media/Babiec-F.3f5381e4.jpg": "/iskierka-tarnow/static/media/Babiec-F.3f5381e4.jpg",
     "static/media/Czarnecki-K.f966930d.jpg": "/iskierka-tarnow/static/media/Czarnecki-K.f966930d.jpg",
@@ -30,14 +30,20 @@
     "static/media/Club.css": "/iskierka-tarnow/static/media/club-photo.1e1abd9b.jpg",
     "static/media/Home.css": "/iskierka-tarnow/static/media/home.a59ecda5.jpg",
     "static/media/Navbar.css": "/iskierka-tarnow/static/media/logo.7cd281cb.png",
+    "static/media/megael.38bad82c.jpg": "/iskierka-tarnow/static/media/megael.38bad82c.jpg",
+    "static/media/mzps.f3dc1601.png": "/iskierka-tarnow/static/media/mzps.f3dc1601.png",
+    "static/media/pzps.b578b69e.png": "/iskierka-tarnow/static/media/pzps.b578b69e.png",
+    "static/media/tarnow.4ec1e929.png": "/iskierka-tarnow/static/media/tarnow.4ec1e929.png",
+    "static/media/tarnowska.60f81cdf.png": "/iskierka-tarnow/static/media/tarnowska.60f81cdf.png",
     "static/media/Contact.css": "/iskierka-tarnow/static/media/teams.05107d23.jpg",
     "static/media/template-club.df5e6b97.png": "/iskierka-tarnow/static/media/template-club.df5e6b97.png",
-    "static/media/trener.75e52490.jpg": "/iskierka-tarnow/static/media/trener.75e52490.jpg"
+    "static/media/trener.75e52490.jpg": "/iskierka-tarnow/static/media/trener.75e52490.jpg",
+    "static/media/tw.57935005.png": "/iskierka-tarnow/static/media/tw.57935005.png"
   },
   "entrypoints": [
     "static/js/runtime-main.efaf9249.js",
     "static/js/2.693048e4.chunk.js",
-    "static/css/main.047c4d39.chunk.css",
-    "static/js/main.d5b18ef5.chunk.js"
+    "static/css/main.4157f45e.chunk.css",
+    "static/js/main.15347179.chunk.js"
   ]
 }
