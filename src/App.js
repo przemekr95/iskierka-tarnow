@@ -6,6 +6,7 @@ import Home from './../src/components/pages/Home/Home';
 import Teams from './../src/components/pages/Teams/Teams';
 import Club from './../src/components/pages/Club/Club';
 import Contact from './../src/components/pages/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/club"><Club/></Route>
           <Route path="/contact"><Contact/></Route>
         </Switch>
+      <Footer />
     </Router>
   );
 }
