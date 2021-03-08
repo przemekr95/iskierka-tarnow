@@ -1,6 +1,8 @@
 .navbar {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.99);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent;
   height: 80px;
   width: 100%;
   display: -webkit-box;
@@ -13,6 +15,10 @@
       -ms-flex-align: center;
           align-items: center;
   z-index: 2;
+}
+
+.activeNav {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .navbar__logo {
@@ -47,7 +53,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #f26522;
+  font-weight: bold;
+  color: #3b5998;
   text-decoration: none;
   text-transform: uppercase;
   padding: 0.5rem 1rem;
@@ -69,7 +76,9 @@
 }
 
 .nav__links {
-  color: white;
+  color: #f26522;
+  text-transform: uppercase;
+  font-weight: bold;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
@@ -182,6 +191,9 @@
             transform: translate(-100%, 60%);
     font-size: 2rem;
     cursor: pointer;
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.8);
   }
 }
 /*# sourceMappingURL=Navbar.css.map */

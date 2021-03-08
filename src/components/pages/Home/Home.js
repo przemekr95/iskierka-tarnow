@@ -27,8 +27,12 @@ const partnersList = partners.map(item=>(
         <a target="_blank" rel="noreferrer" href={item.link} key={item.id}>
             <img className="partner__logo" src={item.img} alt={item.id}/>
         </a>
-    
 ))
+
+const arrowClick = () =>{
+    const el = document.querySelector('.home__wrapper')
+    window.scrollTo(0, el.scrollHeight);  
+}
 
 const Home = () => {
     return(
@@ -37,9 +41,10 @@ const Home = () => {
                 <div className="home__shadow"></div>
                 <h1>Iskierka Tarnów</h1>
                 <h2>#JednaDrużynaJedenCel</h2>
-                <i className="arrow fas fa-chevron-down"></i>
+                
             </div>
-            <div className="home__info">
+            <div className="home__info" id="homeInfo">
+                    <i className="arrow fas fa-chevron-down" onClick={arrowClick}></i>
                 <div className="home__text">
                     <h3>Iskierka</h3>
                     <h2>Tarnów</h2>

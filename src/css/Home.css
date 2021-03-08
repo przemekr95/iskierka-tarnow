@@ -17,6 +17,8 @@
 }
 
 .home__info {
+  margin-top: 80px;
+  margin-bottom: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,7 +46,7 @@
 
 .home__info .home__photo {
   width: 50%;
-  height: 90vh;
+  height: 80vh;
   background-image: url(./../images/home-photo.jpg);
   background-size: cover;
   background-position: center;
@@ -52,7 +54,7 @@
 }
 
 .home__wrapper h1 {
-  font-size: 60px;
+  font-size: 80px;
   text-align: center;
   font-weight: lighter;
 }
@@ -80,9 +82,11 @@
 }
 
 .arrow {
-  bottom: 10%;
-  font-size: 35px;
   position: absolute;
+  top: -20%;
+  padding: 20px;
+  font-size: 35px;
+  cursor: pointer;
   -webkit-animation: bounce 2s infinite ease;
           animation: bounce 2s infinite ease;
 }
@@ -200,6 +204,18 @@
   }
   .partner__logo {
     padding: 30px;
+  }
+  .home__wrapper h1 {
+    font-size: 60px;
+  }
+  .arrow {
+    top: -18%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .arrow {
+    top: -12%;
   }
 }
 /*# sourceMappingURL=Home.css.map */

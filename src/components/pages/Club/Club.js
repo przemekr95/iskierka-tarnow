@@ -52,7 +52,7 @@ const practice = [
     }         
 ]
 
-const download = [{name:"Statut", link:"/download/logo.png"}, {name:"Regulamin", link:"/download/logo.png"}, {name:"Regulamin składek członkowskich", link:"/download/logo.png"}, {name:"Deklaracja członkowska", link:"/download/logo.png"}, {name:"Logo", link:"/download/logo.png"}]
+const download = [{name:"Statut", link:"/download/Statut MUKS Iskierka Tarnów.pdf"}, {name:"Regulamin", link:"/download/Prawa i obowiązki.pdf"}, {name:"Regulamin składek członkowskich", link:"/download/Regulamin składek członkowskich.pdf"}, {name:"Deklaracja członkowska", link:"/download/Deklaracja członkowska.docx"}, {name:"Logo", link:"/download/logo.png"}]
 
 const downloadList = download.map(item=>(
     <Link className="button download__item" key={item.name} to={item.link} target="_blank" download><i className="fas fa-file-download"></i> {item.name} </Link>

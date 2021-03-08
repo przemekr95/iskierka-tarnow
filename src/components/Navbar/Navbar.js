@@ -5,10 +5,13 @@ import './../../css/Navbar.css';
 function Navbar(){
 
     const [click, setClick] = useState(false);
-
+    const [navbar, setNavbar] = useState(false);
 
     const handleClick = () => setClick(!click)
-    const closeMobileMenu = () => setClick(false);
+    const closeMobileMenu = () => {
+        window.scrollTo(0, 0);
+        setClick(false);
+    }
 
 const navItems = [
     {name: "Strona Główna", link: "/"},
@@ -25,9 +28,19 @@ const nav = navItems.map(item => (
     </li>
 ))
 
+const changeBackground = () => {
+    if(window.scrollY >= 80){
+        setNavbar(true)
+    }else {
+        setNavbar(false)
+    }
+}
+
+window.addEventListener('scroll', changeBackground)
+
     return (
         <>
-        <nav className='navbar'>
+        <nav className={navbar ? 'navbar activeNav' : 'navbar'}>
             <Link to='/' className='navbar__logo'></Link>
             <div className='menu__icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-volleyball-ball'} />
