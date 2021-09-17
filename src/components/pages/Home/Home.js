@@ -2,8 +2,8 @@ import React from 'react';
 import './../../../css/Home.css';
 import tarnow from './../../../images/partners/tarnow.png';
 import pzps from './../../../images/partners/pzps.png';
-import mzps from './../../../images/partners/mzps.png';
-import tarnowska from './../../../images/partners/tarnowska.png';
+import zmt from './../../../images/partners/zmt.png';
+import grubcio from './../../../images/partners/grubcio.png';
 import mpec from './../../../images/partners/mpec.png';
 import tw from './../../../images/partners/tw.png';
 import marju from './../../../images/partners/marju.png';
@@ -14,8 +14,8 @@ const textAbout = 'Międzyszkolny Uczniowski Klub Sportowy Iskierka Tarnów to b
 const partners = [
     {id:"tarnow", img: tarnow, link:"https://tarnow.pl/"},
     {id:"pzps", img: pzps, link:"https://www.pzps.pl/pl/"},
-    {id:"mzps", img: mzps, link:"http://www.mzps.pl/"},
-    {id:"tarnowska", img: tarnowska, link:"https://www.tarnowska.tv/"},
+    {id:"zmt", img: zmt, link:"http://www.zmt.tarnow.pl/wordpress/"},
+    {id:"grubcio", img: grubcio, link:"http://grubcio.com.pl/"},
     {id:"mpec", img: mpec, link:"https://mpec.tarnow.pl/"},
     {id:"tw", img: tw, link:"http://www.tw.tarnow.pl/"},
     {id:"marju", img: marju, link:"https://www.marju.pl/"},

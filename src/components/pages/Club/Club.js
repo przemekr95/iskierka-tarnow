@@ -11,34 +11,32 @@ const practice = [
     {
         category: "Minisiatkówka",
         info: [
-            {day: "Poniedziałek", time: "16:00-17:30", location: "SP14, ul. Krzyska 118"},
-            {day: "Środa", time: "16:00-17:30", location: "SP14, ul. Krzyska 118"}
+            {day: "Poniedziałek", time: "16:30-18:00", location: "SP14, ul. Krzyska 118"},
+            {day: "Wtorek", time: "16:30-18:00", location: "SP14, ul. Krzyska 118"},
+            {day: "Czwartek", time: "17:00-18:30", location: "SP14, ul. Krzyska 118"}
         ]
     },
     {
         category: "Młodzicy",
         info: [
-            {day: "Wtorek", time: "16:30-18:00", location: "SP14, ul. Krzyska 118"},
-            {day: "Środa", time: "17:30-19:00", location: "SP14, ul. Krzyska 118"},
-            {day: "Piątek", time: "16:00-17:30", location: "SP14, ul. Krzyska 118"}
+            {day: "Poniedziałek", time: "18:00-19:30", location: "SP14, ul. Krzyska 118"},
+            {day: "Wtorek", time: "18:00-19:30", location: "SP14, ul. Krzyska 118"},
+            {day: "Piątek", time: "18:00-19:30", location: "SP14, ul. Krzyska 118"}
         ]
     },
     {
         category: "Kadeci",
         info: [
-            {day: "Poniedziałek", time: "17:30-19:00", location: "SP14, ul. Krzyska 118"},
-            {day: "Wtorek", time: "18:45-20:45", location: "TOSiR, ul. Krupnicza 8a"},
-            {day: "Czwartek", time: "18:45-20:45", location: "TOSiR, ul. Krupnicza 8a"},
-            {day: "Piątek", time: "17:30-19:00", location: "SP14, ul. Krzyska 118"}
+            {day: "Poniedziałek", time: "18:00-19:30", location: "SP14, ul. Krzyska 118"},
+            {day: "Wtorek", time: "19:00-21:00", location: "TOSiR, ul. Krupnicza 8a"},
+            {day: "Czwartek", time: "19:00-21:00", location: "TOSiR, ul. Krupnicza 8a"}
         ]
     },
     {
         category: "Juniorzy",
         info: [
             {day: "Poniedziałek", time: "20:00-21:30", location: "MDS, ul. Traugutta 5a"},
-            {day: "Wtorek", time: "18:45-20:45", location: "TOSiR, ul. Krupnicza 8a"},
             {day: "Środa", time: "20:00-21:30", location: "MDS, ul. Traugutta 5a"},
-            {day: "Czwartek", time: "18:45-20:45", location: "TOSiR, ul. Krupnicza 8a"},
             {day: "Piątek", time: "20:00-21:30", location: "MDS, ul. Traugutta 5a"}
         ]
     },
